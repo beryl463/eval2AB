@@ -1,0 +1,63 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.flow {
+  background-image: url("../img/house-3.jpeg");
+  height: 400px;
+}
+
+#log {
+  width: 60px;
+  height: 20px;
+}
+
+.petit {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.ho {
+  text-align: center;
+}
+
+.gauche {
+  text-align: left;
+}
+
+.list {
+  list-style: none;
+}
+
+.bleu {
+  background-color: #101D2C;
+  color: white;
+}
+
+.milieu {
+  height: 300px;
+}
+
+.blockquote {
+  font-size: 14px;
+}
+
+h4 {
+  color: white;
+}
+
+.couple {
+  width: 180px;
+  height: 140px;
+}
+
+.fond {
+  background-color: #F9F7F6;
+}
+
+.resize {
+  width: 180px;
+  height: 140px;
+}
