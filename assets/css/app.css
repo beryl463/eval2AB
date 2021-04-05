@@ -5,12 +5,28 @@ body {
 
 .flow {
   background-image: url("../img/house-3.jpeg");
+  background-color: #101D2C;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  opacity: 0.7;
   height: 400px;
+  position: relative;
+  z-index: 10;
+}
+
+.logos {
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
 #log {
   width: 60px;
   height: 20px;
+}
+
+.double {
+  color: #973E2C;
 }
 
 .petit {
@@ -19,8 +35,14 @@ body {
   border-radius: 20px;
 }
 
+hr {
+  color: white;
+  width: 40%;
+}
+
 .ho {
   text-align: center;
+  z-index: 2;
 }
 
 .gauche {
@@ -34,10 +56,19 @@ body {
 .bleu {
   background-color: #101D2C;
   color: white;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: left;
+}
+
+.space {
+  align-content: space-between;
 }
 
 .milieu {
   height: 300px;
+  margin-top: 5%;
 }
 
 .blockquote {
@@ -48,16 +79,105 @@ h4 {
   color: white;
 }
 
+.agrandi {
+  height: 300px;
+}
+
 .couple {
-  width: 180px;
-  height: 140px;
+  width: 280px;
+  height: 200px;
+  position: absolute;
+  z-index: 1000;
+  text-align: center;
+  margin: 40px;
+}
+
+.champs {
+  width: 480px;
+  height: 280px;
+  position: absolute;
+  z-index: 100;
+  opacity: 0.7;
+}
+
+.villa-piscine {
+  width: 250px;
+  height: 120px;
+  position: absolute;
+  z-index: 10000;
+  margin: 80px 160px 240px 250px;
 }
 
 .fond {
   background-color: #F9F7F6;
+  width: 490px;
+  margin-left: 10px;
+  text-align: left;
 }
 
 .resize {
-  width: 180px;
-  height: 140px;
+  width: 100%;
+  height: 100%;
+}
+
+.tv {
+  width: 10%;
+  height: 10%;
+}
+
+.gras {
+  font-weight: bold;
+}
+
+.bottom {
+  background-color: #101D2C;
+  color: white;
+}
+
+.blanc {
+  color: white;
+}
+
+.little {
+  font-size: small;
+}
+
+#copyright {
+  text-align: center;
+}
+
+.b1 {
+  background-color: #C69963;
+  border-radius: 0%;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.A {
+  width: 100%;
+}
+
+.b2 {
+  color: white;
+  background-color: #101D2C;
+  border-radius: 0%;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.card-text {
+  color: #88878E;
+}
+
+.card-footer {
+  color: #88878E;
+}
+
+p {
+  color: #88878E;
+}
+
+.footer {
+  height: 100px;
+  margin-top: 5%;
 }
